@@ -1,0 +1,187 @@
+
+body{color:#302e2e;}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: 0;
+
+}
+
+
+.contenedor-main{
+    margin-bottom: 20px;
+}
+
+main{
+    background: #ffffff;
+    color: #141414;
+    padding: 20px 0;
+    
+}
+
+aside{
+    background: #f7f7f7;
+    padding: 60px 0;
+    color: #171818;
+}
+
+
+footer{
+    padding: 26px 0;
+    background: #e9e9e9;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* IMAGEN-CARRUSEL */
+
+
+
+/* PORTAFOLIO */
+
+.portafolio {
+    background: #ffffff;
+    border-top: 5px solid #fff79df1;
+    padding: 0 20px;
+}
+
+.portafolio .titulo{
+
+    padding: 40px 0;
+    text-align: center;
+    color: #141414;
+    font-family: 'Hammersmith One', sans-serif;
+    font-weight: 300;
+}
+
+.titulo2 {
+   
+    color: rgb(70, 70, 255);
+}
+
+.portafolio .galeria .contenedor-imagen {
+    margin-bottom: 40px;
+    max-height: 180px;
+    overflow: hidden;
+}
+
+.portafolio .galeria .contenedor-imagen a{
+    background: #f5ff6af1;
+    display: inline-block;
+}
+
+.portafolio .galeria .contenedor-imagen:hover img {
+    opacity: .3;
+}
+
+.portafolio .modal-dialog {
+    margin: 0px auto;
+    height: 100%;
+    max-width: 1000px;
+}
+
+.portafolio .modal-content {
+    width: auto;
+
+}
+
+/* Dispositivos lg, los estilos de esta media se aplican HASTA el tamaño indicado */
+
+@media (max-width: 991px) {
+    .portafolio .galeria .contenedor-imagen:nth-child(1) {order: 1;}
+    .portafolio .galeria .contenedor-imagen:nth-child(2) {order: 3;}
+    .portafolio .galeria .contenedor-imagen:nth-child(3) {order: 6;}
+    .portafolio .galeria .contenedor-imagen:nth-child(4) {order: 2;}
+    .portafolio .galeria .contenedor-imagen:nth-child(5) {order: 5;}
+    .portafolio .galeria .contenedor-imagen:nth-child(6) {order: 4;}
+    .portafolio .galeria .contenedor-imagen:nth-child(7) {order: 7;} 
+
+
+    .modal .modal-dialog {
+        width: 90%;
+    }
+
+    .modal .modal-content img {
+        width: 100%;
+    }
+}
+
+
+/* Acerca de */
+
+.acerca-de {
+    padding: 30px;
+    margin-bottom: 40px;
+}
+
+.acerca-de .foto {
+    text-align: center;
+}
+
+.acerca-de .foto img{
+    margin-bottom: 30px;
+}
+
+
+.acerca-de .foto .nombre {
+    color: #545454;
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+
+.portafolio .titulo{
+    color:rgb(70, 70, 255);
+    font-weight: 300;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+/* Contacto */
+
+.contacto{
+    padding: 40px 0;
+    border-top: 1px solid #cbcbcb;
+    border-bottom: 1px solid #cbcbcb;
+    margin-bottom: 40px;
+}
+
+.titulo4 {
+    color:rgb(61, 61, 61);
+    
+    font-size: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-weight: 350;
+
+}
+
+.contacto .form-group {
+    margin-bottom: 0;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario textarea {
+    padding: 15px;
+    border: none;
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
+.contacto .form-group .fondo {
+    background: #f0f0f0;
+}
+
+.formulario textarea {
+    background-color:  #f0f0f0;
+    height: 465px;
+    min-height: 465px;
+    max-height: 250px;
+}
